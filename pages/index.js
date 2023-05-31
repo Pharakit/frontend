@@ -23,7 +23,7 @@ export default function index() {
           <a className="nav-link active" aria-current="page" href="#">หน้าแรก</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">เกี่ยวกับเรา</a>
+          <a className="nav-link" href="index1.js">เกี่ยวกับเรา</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,51 +49,147 @@ export default function index() {
 
 
 
-
-<div id="carouselExampleFade" className="carousel slide carousel-fade">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="A1.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="A2.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="A3.jpg" className="d-block w-100" alt="..." />
+<section className="py-5 text-center container">
+  <div className="row py-lg-5">
+    <div className="col-lg-6 col-md-8 mx-auto">
+      <h1 className="fw-light">ศิลปะสีสัน</h1>
+      <p className="lead text-muted">ศิลปะที่มีสีสันหมายถึงงานศิลปะที่มีสีสันสดใสและมีชีวิตชีวามากมาย ครอบคลุมรูปแบบศิลปะ ประเภท และสื่อต่างๆ โดยสีมีบทบาทสำคัญในการจัดองค์ประกอบภาพ ศิลปะที่มีสีสันมักใช้เฉดสีที่เข้มและอิ่มตัวเพื่อสร้างภาพที่โดดเด่นและน่าประทับใจ</p>
+      <p>
+        <a href="#" className="btn btn-primary my-2">เพิ่มเติม</a>
+      </p>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
+</section>
+
+
+
+
+
+
+<div className="album py-5 bg-light">
+  <div className="container">
+    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A1.jpg" className="d-block w-100" alt="..." />
+          <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A2.jpg" className="d-block w-100" alt="..." />          
+        <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A3.jpg" className="d-block w-100" alt="..." />         
+         <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A4.jpg" className="d-block w-100" alt="..." />          
+        <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A5.jpg" className="d-block w-100" alt="..." />          
+        <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A6.jpg" className="d-block w-100" alt="..." />         
+         <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A7.jpg" className="d-block w-100" alt="..." />          
+        <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A8.jpg" className="d-block w-100" alt="..." />       
+         <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="col">
+        <div className="card shadow-sm">
+        <img src="A9.jpg" className="d-block w-100" alt="..." />          
+        <div className="card-body">
+            <div className="d-flex justify-content-between align-items-center">
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
-<div className="row">
-  <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-    <h2 className="fw-normal">Heading</h2>
-    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-    <p><a className="btn btn-secondary" href="#">View details »</a></p>
-  </div>{/* /.col-lg-4 */}
-  <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-    <h2 className="fw-normal">Heading</h2>
-    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-    <p><a className="btn btn-secondary" href="#">View details »</a></p>
-  </div>{/* /.col-lg-4 */}
-  <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width={140} height={140} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)" /></svg>
-    <h2 className="fw-normal">Heading</h2>
-    <p>And lastly this, the third column of representative placeholder content.</p>
-    <p><a className="btn btn-secondary" href="#">View details »</a></p>
-  </div>{/* /.col-lg-4 */}
-</div>
 
 
 
@@ -102,9 +198,9 @@ export default function index() {
   <footer className="py-5">
     <div className="row">
       <div className="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>หมวด</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
+          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">หน้าแรก</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
@@ -112,9 +208,9 @@ export default function index() {
         </ul>
       </div>
       <div className="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>หมวด</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
+          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">หน้าแรก</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
@@ -122,9 +218,9 @@ export default function index() {
         </ul>
       </div>
       <div className="col-6 col-md-2 mb-3">
-        <h5>Section</h5>
+        <h5>หมวด</h5>
         <ul className="nav flex-column">
-          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Home</a></li>
+          <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">หน้าแรก</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Features</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Pricing</a></li>
           <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">FAQs</a></li>
@@ -133,12 +229,12 @@ export default function index() {
       </div>
       <div className="col-md-5 offset-md-1 mb-3">
         <form>
-          <h5>Subscribe to our newsletter</h5>
-          <p>Monthly digest of what's new and exciting from us.</p>
+          <h5>สมัครรับจดหมายข่าวของเรา</h5>
+          <p>ข้อมูลสรุปรายเดือนของสิ่งใหม่และน่าตื่นเต้นจากเรา.</p>
           <div className="d-flex flex-column flex-sm-row w-100 gap-2">
-            <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
+            <label htmlFor="newsletter1" className="visually-hidden">ที่อยู่อีเมล</label>
             <input id="newsletter1" type="text" className="form-control" placeholder="Email address" />
-            <button className="btn btn-primary" type="button">Subscribe</button>
+            <button className="btn btn-primary" type="button">ติดตาม</button>
           </div>
         </form>
       </div>
