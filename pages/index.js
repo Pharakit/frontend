@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image';
-import 'bootstrap/dist/css/bootstrap.css'
+
 
 
 export default function index() {
@@ -74,7 +74,7 @@ export default function index() {
 
       <div className="text-center">
         <Image
-          src="/catll.png"
+          src="/A.png"
           className="rounded"
           alt="test"
           width={250}
@@ -84,7 +84,7 @@ export default function index() {
 
       <div className="text-center">
         <button type="button" class="btn btn-success">
-          Success
+        Pokeball
         </button>
       </div>
     </>
