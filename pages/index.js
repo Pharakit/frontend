@@ -74,7 +74,7 @@ export default function index() {
 
       <div className="text-center">
         <Image
-          src="/A.png"
+          src="/catll.png"
           className="rounded"
           alt="test"
           width={250}
