@@ -1,6 +1,10 @@
 import Head from 'next/head'
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
+
+
+
 
 
 
@@ -13,30 +17,30 @@ export default function index() {
 
       <nav class="navbar  navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <Link className="navbar-brand"Link href="/">Navbar</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">หน้าแรก</a>
+          <Link className="nav-link active" aria-current="page" href="/">หน้าแรก</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="index1.js">เกี่ยวกับเรา</a>
+          <Link className="nav-link"Link href="/index1">เกี่ยวกับเรา</Link>   
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             บริการของเรา
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
+            <li><Link class="dropdown-item"Link href="/index2">Action</Link></li>
+            <li><Link class="dropdown-item"Link href="/index2">Another action</Link></li>
+            <li><Link class="dropdown-item"Link href="/index2">Something else here</Link></li>
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">ติดต่อเรา</a>
+          <Link className="nav-link" href="/index3">ติดต่อเรา</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">
@@ -55,7 +59,7 @@ export default function index() {
       <h1 className="fw-light">ศิลปะสีสัน</h1>
       <p className="lead text-muted">ศิลปะที่มีสีสันหมายถึงงานศิลปะที่มีสีสันสดใสและมีชีวิตชีวามากมาย ครอบคลุมรูปแบบศิลปะ ประเภท และสื่อต่างๆ โดยสีมีบทบาทสำคัญในการจัดองค์ประกอบภาพ ศิลปะที่มีสีสันมักใช้เฉดสีที่เข้มและอิ่มตัวเพื่อสร้างภาพที่โดดเด่นและน่าประทับใจ</p>
       <p>
-        <a href="#" className="btn btn-primary my-2">เพิ่มเติม</a>
+        <Link href="/index1" className="btn btn-primary my-2">เพิ่มเติม</Link>
       </p>
     </div>
   </div>

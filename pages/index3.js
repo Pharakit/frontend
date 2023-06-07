@@ -4,6 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
+
+
+
+
 export default function index() {
   return (
     <>
@@ -13,7 +17,7 @@ export default function index() {
 
       <nav class="navbar  navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
-    <Link className="navbar-brand" href="/">Navbar</Link>
+    <Link className="navbar-brand"Link href="/">Navbar</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
@@ -23,11 +27,11 @@ export default function index() {
           <Link className="nav-link active" aria-current="page" href="/">หน้าแรก</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" href="/index1">เกี่ยวกับเรา</Link>
+          <Link className="nav-link"Link href="/index1">เกี่ยวกับเรา</Link>   
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-          บริการของเรา
+            บริการของเรา
           </a>
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item"Link href="/index2">Action</Link></li>
@@ -36,7 +40,7 @@ export default function index() {
           </ul>
         </li>
         <li className="nav-item">
-        <Link className="nav-link" href="/index3">ติดต่อเรา</Link>
+          <Link className="nav-link" href="/index3">ติดต่อเรา</Link>
         </li>
       </ul>
       <form className="d-flex" role="search">
@@ -49,27 +53,14 @@ export default function index() {
 
 
 
-<div id="carouselExampleFade" className="carousel slide carousel-fade">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src="A10.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="A11.jpg" className="d-block w-100" alt="..." />
-    </div>
-    <div className="carousel-item">
-      <img src="A12.jpg" className="d-block w-100" alt="..." />
-    </div>
+
+<main className="flex-shrink-0">
+  <div className="container">
+    <h1 className="mt-5">ติดต่อเรา</h1>
+    <p className="lead">วิทยาลัยเทคนิคเชียงใหม่ สถาบันการอาชีวศึกษาภาคเหนือ 1</p>
+    <p> <a href="/docs/5.0/examples/sticky-footer-navbar/">เลขที่ 9 ถนนเวียงแก้ว ตำบลศรีภูมิ อำเภอเมือง จังหวัดเชียงใหม่ 50200</a> โทรศัพท์ : 053 217 708 โทรสาร : 053 221 599</p>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true" />
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true" />
-    <span className="visually-hidden">Next</span>
-  </button>
-</div>
+</main>
 
 
 
