@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 
-export default function index() {
+export default function index2() {
   return (
     <>
       <Head>
