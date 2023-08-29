@@ -89,7 +89,7 @@ export default function Component({ posts }) {
     console.log("password:", jsonData.password);
     console.log("status:", jsonData.status);
 
-     fetch('http://localhost:3000/api/users', {
+     fetch('https://9a07-223-24-162-173.ngrok-free.app/api/users', {
         method: 'POST', // or 'PUT'
         headers: {
           'Content-Type': 'application/json',
